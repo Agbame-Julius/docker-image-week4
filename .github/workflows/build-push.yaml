@@ -28,7 +28,7 @@ jobs:
 
       - name: Build, Tag, and Push Docker Image
         env:
-          ECR_REGISTRY: public.ecr.aws/q9t0i0g1/week4lab
+          ECR_REGISTRY: public.ecr.aws/q9t0i0g1
           ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY }}
           IMAGE_TAG: Julius-Agbame
         run: |
