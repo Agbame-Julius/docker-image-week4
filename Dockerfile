@@ -8,4 +8,3 @@ EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
 
 
-#ENTRYPOINT ["top", "-b"]
